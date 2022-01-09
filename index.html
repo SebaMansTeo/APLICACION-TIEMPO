@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="conteiner">
+        <h1 class="text-4xl border-b flex justify-center ...">BUSCADOR DEL CLIMA</h1>
+        <div class="grid grid-cols-1">
+            <div class="flex justify-center ...">
+                <div id="resultado">
+                    <p>el resultado se mostrara aqui</p>
+                </div>
+            </div>
+            <form  id="formulario" action="#" method="POST">
+                <div class="flex justify-center ...">
+                    <input type="text" name="ciudad" id="ciudad" placeholder="ESCRIBE TU CIUDAD">
+                </div>
+                <div class="flex justify-center ...">
+                    <select name="" id="pais">
+                        <option disabled selected value="">Seleccione</option>
+                        <option value="AR">ARGENTINA</option>
+                        <option value="CH">CHILE</option>
+                        <option value="BR">BRASIL</option>
+                        <option value="PE">PERU</option>
+                        <option value="US">ESTADOS UNIDOS</option>
+                        <option value="IT">ITALIA</option>
+                        <option value="ES">ESPAÑA</option>
+                        <option value="GR">ALEMANIA</option>
+
+                    </select>
+                </div>
+                <div class="flex justify-center ...">
+                    <input type="submit" value="BUSCAR CLIMA">
+                </div>
+            </form>
+        </div>
+        
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
